@@ -72,17 +72,4 @@ Index: NetworkBootMultiBmaHandler.java
 +                request.setServerHostname(hostname);
                  request.setServerMACAddress(config.getServerMACAddress().toLowerCase());
                  request.setServerNameserver(config.getServerNameserver());
-                 request.setServerNetMask(config.getServerNetMask());
-Index: NetworkBootMultiBmaVSANHandler.java
-===================================================================
---- NetworkBootMultiBmaVSANHandler.java (revision 68378)
-+++ NetworkBootMultiBmaVSANHandler.java (working copy)
-@@ -75,7 +75,7 @@
-                        }
-                 }
- 
--                request.setServerHostname(config.getServerHostname());
-+                request.setServerHostname(hostname);
-                 request.setServerMACAddress(config.getServerMACAddress().toLowerCase());
-                 checkIP=isIP(config.getServerNameserver());
-                 String errNameServerMsg=null;
+                
