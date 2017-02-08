@@ -1,8 +1,7 @@
 Index: NetworkBootHandler.java
 ===================================================================
 --- NetworkBootHandler.java     (revision 68378)
-+++ NetworkBootHandler.java     (working copy)
-@@ -31,7 +31,8 @@
+
  public class NetworkBootHandler implements CustomActionHandlerIf
  {
      final static Logger         logger                = Logger.getLogger(NetworkBootHandler.class);
